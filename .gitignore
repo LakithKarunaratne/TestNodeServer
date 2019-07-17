@@ -30,14 +30,20 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+angular-6-basic-authentication-example-master/build/Release
+node-basic-authentication-api-master/build/Release
 
 # Dependency directories
-node_modules/
-jspm_packages/
+angular-6-basic-authentication-example-master/node_modules/
+node-basic-authentication-api-master/node_modules/
+
+#node_modules/
+angular-6-basic-authentication-example-master/jspm_packages/
+node-basic-authentication-api-master/node_modules/jspm_packages/
 
 # TypeScript v1 declaration files
-typings/
+node-basic-authentication-api-master/typings/
+angular-6-basic-authentication-example-master/typings/
 
 # Optional npm cache directory
 .npm
